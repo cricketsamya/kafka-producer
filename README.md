@@ -2,6 +2,9 @@
 
 Spring Boot Application with Kafka Message Producer + Zookeeper
 
+Producer basically prepares a `MessageObject(identifier=d7ea610b-9087-438c-9b52-1913a17ec2a9, action=SEND EMAIL)` and consumer can consume this message to perform certain tasks. 
+Currently consumer only LOGS the message data.
+
 *Note: Java 11 is required.
 
 ## Zookeeper Setup
